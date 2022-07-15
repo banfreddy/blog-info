@@ -25,12 +25,12 @@ header{
 }
 
 .logo{
-    margin-top: 20px ;
+    margin-top: 25px ;
 }
 
 .navMenu ul{
     display: flex;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .navMenu li{
@@ -49,3 +49,74 @@ header{
 }
 
 /* End css header */
+
+/* begin css main */
+
+main{
+    height: 100vh;
+    
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contenair{
+    display: flex;
+}
+
+.content{
+    /*float: left;*/
+    
+    width: 70%;
+    padding: 12px 10px;
+}
+
+.title{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.card{
+    border: 1px solid #11886681;
+    border-radius: 5px;
+    box-shadow: 4px 3px 0px #6a6969;
+    padding: 8px 7px;
+    height: 150px;
+}
+
+.card-title{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+    text-decoration-line: underline;
+    font-weight: 400;
+    
+}
+
+.card-description{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+
+}
+.card-created-at,.author{
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    
+    font-size: 0.8rem;
+    margin-top: 8px;
+    margin-bottom: 8px ;
+}
+
+
+
+.sidebar{
+    /*float: right;*/
+    width: 30%;
+    
+   padding: 12px 10px;
+}
+
