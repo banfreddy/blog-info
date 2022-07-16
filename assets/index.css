@@ -13,6 +13,8 @@ header{
     background: #145666cb;
 }
 
+
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -26,6 +28,7 @@ header{
 
 .logo{
     margin-top: 25px ;
+    cursor: pointer;
 }
 
 .navMenu ul{
