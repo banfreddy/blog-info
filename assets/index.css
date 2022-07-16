@@ -10,7 +10,7 @@
 
 header{
     height: 85px;
-    background: rgba(250, 205, 123, 0.356);
+    background: #145666cb;
 }
 
 .navbar{
@@ -40,7 +40,7 @@ header{
 
 .navMenu a{
     text-decoration: none;
-    color: #492a2a96;
+    color: #fdf4f496;
 }
 
 .navMenu a:hover{
@@ -57,6 +57,7 @@ main{
     
     width: 80%;
     margin: 0 auto;
+    
 }
 
 .contenair{
@@ -67,7 +68,9 @@ main{
     /*float: left;*/
     
     width: 75%;
+    height: 100vh;
     padding: 12px 10px;
+    background: #1456669d;
 }
 
 .title{
@@ -77,6 +80,7 @@ main{
     font-weight: 500;
     letter-spacing: 2px;
     margin-bottom: 12px;
+    color: rgba(250, 208, 193, 0.685);
 }
 
 .card{
@@ -87,6 +91,9 @@ main{
     height: 150px;
     overflow: hidden;
     cursor: pointer;
+    margin: 10px auto;
+    width: 700px;
+    color: rgba(255, 255, 255, 0.699);
 }
 
 .card-title{
@@ -102,6 +109,7 @@ main{
     text-align: justify;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 300;
+   
     
     
 
@@ -121,34 +129,71 @@ main{
 .sidebar{
     /*float: right;*/
     width: 25%;
-    
+    background: #145666ce;
    padding: 12px 10px;
    color: orangered;
 }
 .articles{
     list-style-type: none;
     padding: 12px;
+    border: 1px solid #444556;
+    box-shadow: 5px 3px 0 #555555;
     
 }
 .articles a{
     text-decoration: none;
-    color: #449ee5;
+    color: #eff5fac7;
     font-size: 1.2rem;
     padding: 6px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 400;
+    
 }
 
 footer{
-    width: 100va;
-    background: #ee48a8;
+    width: 100vw;
+    background: #145666d2;
     height: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: center;
+    position: relative;
     
+    
+}
+.span{
+    position: absolute;
+    left: 38%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #2222229a;
+    font-weight: 300;
+    margin-top: 12px;
+
+}
+
+.service{
+    
+    position: absolute;
+    left: 20%;
+    top: 25px;
 }
 
 .service ul{
     list-style-type: none;
+    margin: 20px;
     
+}
+.service a, .categorie a{
+    text-decoration: none;
+    color: #f8eeeeb7;
+}
+
+.categorie{
+    
+    position: absolute;
+    top: 25px;
+}
+.categorie ul{
+    list-style-type: none;
+    margin: 20px;
 }
